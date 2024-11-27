@@ -10,10 +10,11 @@ const URL =
 
 bot.start((ctx) =>
   ctx.reply(
+    
     "Welcome to the Horoscope Bot! Click the button below to check your daily horoscope:",
     {
       reply_markup: {
-        inline_keyboard: [[{ text: "Dayly Horoscope", web_app: { url: URL } }]],
+        inline_keyboard: [[{ text: "Daily Horoscope", web_app: { url: URL } }]],
       },
     }
   )
